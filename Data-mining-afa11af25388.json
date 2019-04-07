@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "data-mining-236919",
+  "private_key_id": "afa11af25388a4ab6e1bcec7e5a0e009f980d3eb",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCqfxICv1VLpdjG\ne/BUP5TaAEmoP2+mG3lY1MkDt5VSqqyCzts/veFXBZkDotFMqax2izZsVDiiU+UV\npmhW9Vm9DkPKYL03kw6hMl09tZXZ6TI9Tw6K/BSTl5lrvlgw2yd5cwbzxvDXHe3W\nJaQw8/b0xH78uq2738ZxwxPvkcf+Sp6BGkAbfwF+74bnXIKa9Wh5GQ8D8jY78TEi\nWIV4ET7mEH64XROdkUdigCzq0UY3IXMOLe6hce3Hru7L5IENL9q6Xbhoq+PMhs8Z\njF19QPqm/Nr3WXrr2O2+kj6Ut65h7/ZaStc5fodFhHOVfanCSBdTkJ8vpxEPVfXx\nmVWRtoILAgMBAAECggEADtB8waVbZXfTJqf1QXTG28xjmg1tB5tih1/x2XNVs7ml\nxLXxog+/KT8QxRqcIhOqKyC8iVwmEaDFioSLk2a9Neqr5EVUm6QZBNOp+2cwTp9v\nIJmic1wk85AcIhsHcbNRMkHW7E6wdZihplZd9mz0W99JA2+7EdSHWzIupMXfgU5Z\nGeft7weKHOsUaj1v91jSJ+5f7dyGUwKdLG31IcTFp21V6ExnArcTya0R4RYiwTAa\nY8ExAN3/BRmJOarF/+42cv/BIG4jIbVIt0jXzPaaMzkUfhzTHYaPlDokk4cb384k\nDcV1JTx1FDqNBgOLAlcCTCG3kk0jIsNXKrL8SN4WjQKBgQDjBLhfI3Ktr5caVNWd\nqOKvc3pJ+KQgz8BNMOKQQla4oorEmNILAV4nDRUSeoahCkyUioIvYn67v7/Idb+f\nxK4NJy34QQ4iWB2hzWNMaYXpP8zhqUEUtzCt/0cuOggC8lcymLxxn4obH9D9wJVi\nwpS+ObIXVlTp9vf2hxOvLOnO5QKBgQDAQyFDIafj2YqrZ/AmEtU5KB9N4On1hmck\nxG6Jk2unOtLsYKuADVOhDYSoeBF4AKtCXgRSEYW2BDkK0INvzlSbA0Y5CD9vmPDs\niSmf9HIqP7npHMPCjST/CwiVU04ey8cTSV3kui7wx9PoLGkYxGc7YQiOGM+3eYo2\n+sFlkwUOLwKBgAjPExRl/LoumQ9lgVB30Cv8sB8UrdG0HgMgxXnRiSnq7LWKNIRG\nzk93m3y3EmhHTQdqhHiwOriwTRHLN99MM3DBN3Btnc3JW4T+wj6hzZdqaVnMRoE2\nRoZJ5IovqEXs/2MwOAe0qBg7WNGv2lwVrs3e0UFEkVDuy1pejW37sSrdAoGAHV2j\nhPdtB1ZA4fFcMtSJkNNaBLEnywKeWnVOVOEZfk9zy/rv9v0SGvVPn9PHB0dC4T4u\n9sIKZES82bQDf15KeerEHQ3vcoIvulEw9GeH0IAvSzXDiMG6NuJei0BQHFAPthhs\nqPTvGoPLEBlIbCoDgoRNpDaR83oy7Dbct0D/cq0CgYAcBxkZvI/vOi+kDLY0diuy\njmTHg6bMTaQJXjQJBR/hWIDbJjYxkpkc9skwn4Sulx0yfWARu3WexDF5L0mdFRaZ\n3pG4Num6rPhBmy92WVaDcP0lmg4DC0oXdxTIZ+zyXP97lM6f97k1e43CkVBEyHgo\n9+A2Bqxb61u+WuJqFd2SQw==\n-----END PRIVATE KEY-----\n",
+  "client_email": "kamen-shah@data-mining-236919.iam.gserviceaccount.com",
+  "client_id": "116256727848752990469",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/kamen-shah%40data-mining-236919.iam.gserviceaccount.com"
+}
