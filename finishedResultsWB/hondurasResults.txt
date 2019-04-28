@@ -1,0 +1,67 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                  Datum   R-squared:                       0.987
+Model:                            OLS   Adj. R-squared:                  0.977
+Method:                 Least Squares   F-statistic:                     103.6
+Date:                Sun, 28 Apr 2019   Prob (F-statistic):           4.40e-12
+Time:                        14:49:41   Log-Likelihood:                -255.40
+No. Observations:                  27   AIC:                             534.8
+Df Residuals:                      15   BIC:                             550.3
+Df Model:                          11                                         
+Covariance Type:            nonrobust                                         
+========================================================================================================================================
+                                                                           coef    std err          t      P>|t|      [0.025      0.975]
+----------------------------------------------------------------------------------------------------------------------------------------
+const                                                                -4.432e+05   1.24e+05     -3.561      0.003   -7.09e+05   -1.78e+05
+Adolescent fertility rate (births per 1,000 women ages 15-19)         2681.4246    882.823      3.037      0.008     799.731    4563.118
+Armed forces personnel (% of total labor force)                       3.383e+04   9104.354      3.716      0.002    1.44e+04    5.32e+04
+Average grant element on new external debt commitments (%)           -1772.9819    748.667     -2.368      0.032   -3368.728    -177.236
+Average grant element on new external debt commitments, official (%)  1767.7175    782.999      2.258      0.039      98.795    3436.640
+Average maturity on new external debt commitments (years)             4290.4204   2050.504      2.092      0.054     -80.124    8660.965
+Average maturity on new external debt commitments, official (years)  -3441.1795   2052.565     -1.677      0.114   -7816.119     933.760
+GDP (current LCU)                                                       -0.0006      0.000     -6.011      0.000      -0.001      -0.000
+GDP deflator (base year varies by country)                            6.543e+05   1.07e+05      6.133      0.000    4.27e+05    8.82e+05
+GDP deflator: linked series (base year varies by country)            -6.532e+05   1.07e+05     -6.131      0.000    -8.8e+05   -4.26e+05
+GDP: linked series (current LCU)                                         0.0006      0.000      6.012      0.000       0.000       0.001
+Import unit value index (2000 = 100)                                   286.0133    119.531      2.393      0.030      31.240     540.787
+==============================================================================
+Omnibus:                        0.620   Durbin-Watson:                   2.516
+Prob(Omnibus):                  0.734   Jarque-Bera (JB):                0.564
+Skew:                           0.316   Prob(JB):                        0.754
+Kurtosis:                       2.680   Cond. No.                     6.27e+13
+==============================================================================
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 6.27e+13. This might indicate that there are
+strong multicollinearity or other numerical problems.
+
+const                                                                  -443225.262098
+Adolescent fertility rate (births per 1,000 women ages 15-19)             2681.424556
+Armed forces personnel (% of total labor force)                          33834.573435
+Average grant element on new external debt commitments (%)               -1772.981919
+Average grant element on new external debt commitments, official (%)      1767.717522
+Average maturity on new external debt commitments (years)                 4290.420372
+Average maturity on new external debt commitments, official (years)      -3441.179540
+GDP (current LCU)                                                           -0.000637
+GDP deflator (base year varies by country)                              654337.632081
+GDP deflator: linked series (base year varies by country)              -653163.322796
+GDP: linked series (current LCU)                                             0.000636
+Import unit value index (2000 = 100)                                       286.013252
+dtype: float64
+
+const                                                                   0.002845
+Adolescent fertility rate (births per 1,000 women ages 15-19)           0.008316
+Armed forces personnel (% of total labor force)                         0.002069
+Average grant element on new external debt commitments (%)              0.031735
+Average grant element on new external debt commitments, official (%)    0.039308
+Average maturity on new external debt commitments (years)               0.053822
+Average maturity on new external debt commitments, official (years)     0.114346
+GDP (current LCU)                                                       0.000024
+GDP deflator (base year varies by country)                              0.000019
+GDP deflator: linked series (base year varies by country)               0.000019
+GDP: linked series (current LCU)                                        0.000024
+Import unit value index (2000 = 100)                                    0.030247
+dtype: float64
+
+-443225.2620976394 +2681.424555975297x  +33834.57343493761x  -1772.9819190745438x  +1767.7175224478115x  +4290.4203718554145x  -3441.1795397699498x  -0.0006366620346052953x  +654337.6320806658x  -653163.322796175x  +0.0006364164235143911x  +286.0132516206139x 

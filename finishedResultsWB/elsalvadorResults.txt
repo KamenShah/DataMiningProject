@@ -1,0 +1,64 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                  Datum   R-squared:                       0.922
+Model:                            OLS   Adj. R-squared:                  0.887
+Method:                 Least Squares   F-statistic:                     26.60
+Date:                Sun, 28 Apr 2019   Prob (F-statistic):           1.89e-08
+Time:                        15:18:23   Log-Likelihood:                -213.95
+No. Observations:                  27   AIC:                             445.9
+Df Residuals:                      18   BIC:                             457.6
+Df Model:                           8                                         
+Covariance Type:            nonrobust                                         
+=============================================================================================================================================
+                                                                                coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------------------------------------------------
+Adjusted net savings, including particulate emission damage (current US$) -2.217e-06   6.89e-07     -3.215      0.005   -3.67e-06   -7.68e-07
+Adjusted savings: natural resources depletion (% of GNI)                    157.7879    668.650      0.236      0.816   -1246.993    1562.568
+Adjusted savings: net forest depletion (% of GNI)                           157.7870    668.646      0.236      0.816   -1246.986    1562.560
+Children (ages 0-14) newly infected with HIV                               -800.4549    280.376     -2.855      0.011   -1389.504    -211.406
+Final consumption expenditure (constant 2010 US$)                         -2.826e-07   6.54e-07     -0.432      0.671   -1.66e-06    1.09e-06
+GDP per capita, PPP (constant 2011 international $)                           2.9516      3.740      0.789      0.440      -4.906      10.810
+GDP per capita, PPP (current international $)                                 3.7863      1.904      1.988      0.062      -0.214       7.787
+Imports of goods and services (current US$)                               -3.113e-07   4.35e-07     -0.715      0.484   -1.23e-06    6.03e-07
+Manufacturing, value added (current LCU)                                  -3.822e-06   2.15e-05     -0.178      0.861   -4.89e-05    4.13e-05
+Manufacturing, value added (current US$)                                   4.431e-07   2.19e-05      0.020      0.984   -4.55e-05    4.64e-05
+Mortality rate, adult, male (per 1,000 male adults)                         210.8507     71.181      2.962      0.008      61.305     360.396
+==============================================================================
+Omnibus:                       31.117   Durbin-Watson:                   1.760
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               71.522
+Skew:                           2.320   Prob(JB):                     2.95e-16
+Kurtosis:                       9.484   Cond. No.                     8.63e+17
+==============================================================================
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The smallest eigenvalue is 1.31e-14. This might indicate that there are
+strong multicollinearity problems or that the design matrix is singular.
+
+Adjusted net savings, including particulate emission damage (current US$)   -2.216674e-06
+Adjusted savings: natural resources depletion (% of GNI)                     1.577879e+02
+Adjusted savings: net forest depletion (% of GNI)                            1.577870e+02
+Children (ages 0-14) newly infected with HIV                                -8.004549e+02
+Final consumption expenditure (constant 2010 US$)                           -2.825781e-07
+GDP per capita, PPP (constant 2011 international $)                          2.951590e+00
+GDP per capita, PPP (current international $)                                3.786292e+00
+Imports of goods and services (current US$)                                 -3.112711e-07
+Manufacturing, value added (current LCU)                                    -3.821708e-06
+Manufacturing, value added (current US$)                                     4.431400e-07
+Mortality rate, adult, male (per 1,000 male adults)                          2.108507e+02
+dtype: float64
+
+Adjusted net savings, including particulate emission damage (current US$)    0.004797
+Adjusted savings: natural resources depletion (% of GNI)                     0.816112
+Adjusted savings: net forest depletion (% of GNI)                            0.816113
+Children (ages 0-14) newly infected with HIV                                 0.010520
+Final consumption expenditure (constant 2010 US$)                            0.670647
+GDP per capita, PPP (constant 2011 international $)                          0.440303
+GDP per capita, PPP (current international $)                                0.062187
+Imports of goods and services (current US$)                                  0.483775
+Manufacturing, value added (current LCU)                                     0.860607
+Manufacturing, value added (current US$)                                     0.984057
+Mortality rate, adult, male (per 1,000 male adults)                          0.008343
+dtype: float64
+
+-2.2166738966235468e-06 +157.7878780188862x  +157.78695966385885x  -800.4548626560286x  -2.825781215476679e-07x  +2.951589747176608x  +3.786291966385399x  -3.11271083452476e-07x  -3.821708488478581e-06x  +4.4314001199446625e-07x  +210.85068576950553x 

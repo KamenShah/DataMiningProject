@@ -1,0 +1,67 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                  Datum   R-squared:                       0.948
+Model:                            OLS   Adj. R-squared:                  0.921
+Method:                 Least Squares   F-statistic:                     34.57
+Date:                Sun, 28 Apr 2019   Prob (F-statistic):           3.46e-09
+Time:                        15:21:42   Log-Likelihood:                -204.89
+No. Observations:                  27   AIC:                             429.8
+Df Residuals:                      17   BIC:                             442.7
+Df Model:                           9                                         
+Covariance Type:            nonrobust                                         
+===================================================================================================================================================================================
+                                                                                                                      coef    std err          t      P>|t|      [0.025      0.975]
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+const                                                                                                            3.874e+04   5805.163      6.674      0.000    2.65e+04     5.1e+04
+Adjusted savings: education expenditure (current US$)                                                            3.045e-06   1.18e-06      2.585      0.019     5.6e-07    5.53e-06
+Adults (ages 15+) and children (ages 0-14) newly infected with HIV                                                 17.7975      2.438      7.299      0.000      12.653      22.942
+DEC alternative conversion factor (LCU per US$)                                                                    35.8654      7.750      4.628      0.000      19.514      52.216
+Final consumption expenditure (constant 2010 US$)                                                                -5.58e-07   3.11e-07     -1.793      0.091   -1.21e-06    9.88e-08
+General government final consumption expenditure (constant 2010 US$)                                               -0.0524      0.008     -6.674      0.000      -0.069      -0.036
+General government final consumption expenditure (constant LCU)                                                  8.291e-05   1.24e-05      6.674      0.000    5.67e-05       0.000
+Interest payments (% of expense)                                                                                  -93.6294     63.741     -1.469      0.160    -228.111      40.852
+Interest payments on external debt, long-term (INT, current US$)                                                   -0.0038      0.001     -6.675      0.000      -0.005      -0.003
+Interest payments on external debt, private nonguaranteed (PNG) (INT, current US$)                                  0.0038      0.001      6.676      0.000       0.003       0.005
+Interest payments on external debt, public and publicly guaranteed (PPG) (INT, current US$)                         0.0038      0.001      6.670      0.000       0.003       0.005
+Merchandise exports to low- and middle-income economies in East Asia & Pacific (% of total merchandise exports)  -288.8259     98.103     -2.944      0.009    -495.806     -81.846
+==============================================================================
+Omnibus:                       18.446   Durbin-Watson:                   1.949
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               25.291
+Skew:                          -1.517   Prob(JB):                     3.22e-06
+Kurtosis:                       6.644   Cond. No.                     1.50e+20
+==============================================================================
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The smallest eigenvalue is 1.32e-14. This might indicate that there are
+strong multicollinearity problems or that the design matrix is singular.
+
+const                                                                                                              3.874322e+04
+Adjusted savings: education expenditure (current US$)                                                              3.045468e-06
+Adults (ages 15+) and children (ages 0-14) newly infected with HIV                                                 1.779745e+01
+DEC alternative conversion factor (LCU per US$)                                                                    3.586543e+01
+Final consumption expenditure (constant 2010 US$)                                                                 -5.579884e-07
+General government final consumption expenditure (constant 2010 US$)                                              -5.235483e-02
+General government final consumption expenditure (constant LCU)                                                    8.291195e-05
+Interest payments (% of expense)                                                                                  -9.362942e+01
+Interest payments on external debt, long-term (INT, current US$)                                                  -3.835793e-03
+Interest payments on external debt, private nonguaranteed (PNG) (INT, current US$)                                 3.838601e-03
+Interest payments on external debt, public and publicly guaranteed (PPG) (INT, current US$)                        3.836144e-03
+Merchandise exports to low- and middle-income economies in East Asia & Pacific (% of total merchandise exports)   -2.888259e+02
+dtype: float64
+
+const                                                                                                              0.000004
+Adjusted savings: education expenditure (current US$)                                                              0.019269
+Adults (ages 15+) and children (ages 0-14) newly infected with HIV                                                 0.000001
+DEC alternative conversion factor (LCU per US$)                                                                    0.000240
+Final consumption expenditure (constant 2010 US$)                                                                  0.090864
+General government final consumption expenditure (constant 2010 US$)                                               0.000004
+General government final consumption expenditure (constant LCU)                                                    0.000004
+Interest payments (% of expense)                                                                                   0.160121
+Interest payments on external debt, long-term (INT, current US$)                                                   0.000004
+Interest payments on external debt, private nonguaranteed (PNG) (INT, current US$)                                 0.000004
+Interest payments on external debt, public and publicly guaranteed (PPG) (INT, current US$)                        0.000004
+Merchandise exports to low- and middle-income economies in East Asia & Pacific (% of total merchandise exports)    0.009072
+dtype: float64
+
+38743.21717538965 +3.045467762675864e-06x  +17.79745174332127x  +35.865434873876055x  -5.579883995818654e-07x  -0.05235483466691466x  +8.291194765656732e-05x  -93.62942130353737x  -0.0038357928386143336x  +0.003838600980805418x  +0.0038361444171815203x  -288.8259139633216x 

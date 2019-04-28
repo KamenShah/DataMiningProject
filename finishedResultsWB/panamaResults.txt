@@ -1,0 +1,67 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                  Datum   R-squared:                       0.884
+Model:                            OLS   Adj. R-squared:                  0.841
+Method:                 Least Squares   F-statistic:                     20.59
+Date:                Sun, 28 Apr 2019   Prob (F-statistic):           1.30e-07
+Time:                        15:22:31   Log-Likelihood:                -200.83
+No. Observations:                  27   AIC:                             417.7
+Df Residuals:                      19   BIC:                             428.0
+Df Model:                           7                                         
+Covariance Type:            nonrobust                                         
+=============================================================================================================================================
+                                                                                coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------------------------------------------------
+const                                                                      1.015e+05   3.85e+04      2.640      0.016     2.1e+04    1.82e+05
+Adjusted net savings, excluding particulate emission damage (current US$)   -34.1772     12.946     -2.640      0.016     -61.273      -7.081
+Adjusted net savings, including particulate emission damage (current US$)    34.1772     12.946      2.640      0.016       7.081      61.273
+Adjusted savings: particulate emission damage (current US$)                  34.1768     12.946      2.640      0.016       7.081      61.273
+Children (0-14) living with HIV                                              11.3363      1.654      6.855      0.000       7.875      14.798
+Final consumption expenditure (current LCU)                                 1.66e-06    2.2e-07      7.544      0.000     1.2e-06    2.12e-06
+Forest area (% of land area)                                                 -0.0024      0.001     -2.500      0.022      -0.004      -0.000
+Forest area (sq. km)                                                         -1.8183      0.727     -2.500      0.022      -3.340      -0.296
+GDP (constant 2010 US$)                                                      97.2999     36.856      2.640      0.016      20.159     174.441
+GDP (constant LCU)                                                         -114.2796     43.288     -2.640      0.016    -204.882     -23.677
+GNI (constant 2010 US$)                                                    -269.1754    101.961     -2.640      0.016    -482.582     -55.769
+GNI (constant LCU)                                                          316.9614    120.062      2.640      0.016      65.669     568.253
+==============================================================================
+Omnibus:                        0.066   Durbin-Watson:                   1.919
+Prob(Omnibus):                  0.967   Jarque-Bera (JB):                0.089
+Skew:                          -0.070   Prob(JB):                        0.956
+Kurtosis:                       2.756   Cond. No.                     2.33e+24
+==============================================================================
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The smallest eigenvalue is 1.16e-26. This might indicate that there are
+strong multicollinearity problems or that the design matrix is singular.
+
+const                                                                        101520.310034
+Adjusted net savings, excluding particulate emission damage (current US$)       -34.177191
+Adjusted net savings, including particulate emission damage (current US$)        34.177192
+Adjusted savings: particulate emission damage (current US$)                      34.176767
+Children (0-14) living with HIV                                                  11.336280
+Final consumption expenditure (current LCU)                                       0.000002
+Forest area (% of land area)                                                     -0.002445
+Forest area (sq. km)                                                             -1.818281
+GDP (constant 2010 US$)                                                          97.299898
+GDP (constant LCU)                                                             -114.279617
+GNI (constant 2010 US$)                                                        -269.175407
+GNI (constant LCU)                                                              316.961386
+dtype: float64
+
+const                                                                        1.614382e-02
+Adjusted net savings, excluding particulate emission damage (current US$)    1.614346e-02
+Adjusted net savings, including particulate emission damage (current US$)    1.614346e-02
+Adjusted savings: particulate emission damage (current US$)                  1.614454e-02
+Children (0-14) living with HIV                                              1.534727e-06
+Final consumption expenditure (current LCU)                                  3.960654e-07
+Forest area (% of land area)                                                 2.173033e-02
+Forest area (sq. km)                                                         2.172880e-02
+GDP (constant 2010 US$)                                                      1.614382e-02
+GDP (constant LCU)                                                           1.614382e-02
+GNI (constant 2010 US$)                                                      1.614382e-02
+GNI (constant LCU)                                                           1.614382e-02
+dtype: float64
+
+101520.31003365997 -34.17719119649182x  +34.177191886256594x  +34.17676697591617x  +11.33628049303245x  +1.6595586559052038e-06x  -0.002445284471053903x  -1.8182809382796294x  +97.29989804351267x  -114.27961660314799x  -269.1754068773055x  +316.9613855543125x 

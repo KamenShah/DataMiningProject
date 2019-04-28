@@ -1,0 +1,67 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                  Datum   R-squared:                       0.987
+Model:                            OLS   Adj. R-squared:                  0.980
+Method:                 Least Squares   F-statistic:                     126.3
+Date:                Sun, 28 Apr 2019   Prob (F-statistic):           2.84e-13
+Time:                        15:09:53   Log-Likelihood:                -248.99
+No. Observations:                  27   AIC:                             520.0
+Df Residuals:                      16   BIC:                             534.2
+Df Model:                          10                                         
+Covariance Type:            nonrobust                                         
+=================================================================================================================================
+                                                                    coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------------------------------------
+const                                                         -4.231e+05   9.94e+04     -4.255      0.001   -6.34e+05   -2.12e+05
+Adjusted net national income (current US$)                     6.557e-05    1.3e-05      5.053      0.000    3.81e-05    9.31e-05
+Adjusted savings: consumption of fixed capital (% of GNI)       4.74e+04   6980.803      6.789      0.000    3.26e+04    6.22e+04
+Adjusted savings: consumption of fixed capital (current US$)     -0.0006      0.000     -5.466      0.000      -0.001      -0.000
+Adjusted savings: education expenditure (current US$)            -0.0003   4.62e-05     -6.259      0.000      -0.000      -0.000
+Adjusted savings: particulate emission damage (% of GNI)      -3.925e+05   4.89e+04     -8.028      0.000   -4.96e+05   -2.89e+05
+Adolescent fertility rate (births per 1,000 women ages 15-19) -1.195e+04   1441.413     -8.293      0.000    -1.5e+04   -8897.627
+Adults (ages 15+) newly infected with HIV                       -90.8393     11.220     -8.096      0.000    -114.626     -67.053
+Age dependency ratio (% of working-age population)             1.179e+04   1932.900      6.100      0.000    7693.277    1.59e+04
+Fertility rate, total (births per woman)                        2.43e+05   4.45e+04      5.459      0.000    1.49e+05    3.37e+05
+Final consumption expenditure (constant 2010 US$)                86.4602     13.937      6.203      0.000      56.914     116.006
+Final consumption expenditure (constant LCU)                     -5.5273      0.891     -6.203      0.000      -7.416      -3.638
+==============================================================================
+Omnibus:                        1.142   Durbin-Watson:                   1.825
+Prob(Omnibus):                  0.565   Jarque-Bera (JB):                1.087
+Skew:                           0.421   Prob(JB):                        0.581
+Kurtosis:                       2.491   Cond. No.                     1.59e+16
+==============================================================================
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 1.59e+16. This might indicate that there are
+strong multicollinearity or other numerical problems.
+
+const                                                           -423105.787921
+Adjusted net national income (current US$)                            0.000066
+Adjusted savings: consumption of fixed capital (% of GNI)         47395.822931
+Adjusted savings: consumption of fixed capital (current US$)         -0.000643
+Adjusted savings: education expenditure (current US$)                -0.000289
+Adjusted savings: particulate emission damage (% of GNI)        -392450.243871
+Adolescent fertility rate (births per 1,000 women ages 15-19)    -11953.285629
+Adults (ages 15+) newly infected with HIV                           -90.839275
+Age dependency ratio (% of working-age population)                11790.842372
+Fertility rate, total (births per woman)                         243031.640783
+Final consumption expenditure (constant 2010 US$)                    86.460179
+Final consumption expenditure (constant LCU)                         -5.527307
+dtype: float64
+
+const                                                            6.042294e-04
+Adjusted net national income (current US$)                       1.176514e-04
+Adjusted savings: consumption of fixed capital (% of GNI)        4.346787e-06
+Adjusted savings: consumption of fixed capital (current US$)     5.182605e-05
+Adjusted savings: education expenditure (current US$)            1.140963e-05
+Adjusted savings: particulate emission damage (% of GNI)         5.303662e-07
+Adolescent fertility rate (births per 1,000 women ages 15-19)    3.468082e-07
+Adults (ages 15+) newly infected with HIV                        4.749929e-07
+Age dependency ratio (% of working-age population)               1.534052e-05
+Fertility rate, total (births per woman)                         5.246083e-05
+Final consumption expenditure (constant 2010 US$)                1.264384e-05
+Final consumption expenditure (constant LCU)                     1.264385e-05
+dtype: float64
+
+-423105.78792104323 +6.557328889159622e-05x  +47395.82293136466x  -0.0006429379845201922x  -0.00028928055426978425x  -392450.2438705021x  -11953.285628787326x  -90.83927466615131x  +11790.842372369942x  +243031.6407825728x  +86.46017947256234x  -5.527306892350758x 
