@@ -1,32 +1,37 @@
                             OLS Regression Results                            
 ==============================================================================
-Dep. Variable:                  Datum   R-squared:                       0.859
-Model:                            OLS   Adj. R-squared:                  0.833
-Method:                 Least Squares   F-statistic:                     33.47
-Date:                Sun, 28 Apr 2019   Prob (F-statistic):           4.62e-09
-Time:                        20:55:43   Log-Likelihood:                -287.60
-No. Observations:                  27   AIC:                             585.2
-Df Residuals:                      22   BIC:                             591.7
-Df Model:                           4                                         
+Dep. Variable:                  Datum   R-squared:                       0.991
+Model:                            OLS   Adj. R-squared:                  0.986
+Method:                 Least Squares   F-statistic:                     199.0
+Date:                Sun, 28 Apr 2019   Prob (F-statistic):           1.99e-15
+Time:                        21:52:34   Log-Likelihood:                -191.43
+No. Observations:                  27   AIC:                             402.9
+Df Residuals:                      17   BIC:                             415.8
+Df Model:                           9                                         
 Covariance Type:            nonrobust                                         
+=============================================================================================================================================
+                                                                                coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------------------------------------------------
+const                                                                      -2.31e+04   5727.666     -4.033      0.001   -3.52e+04    -1.1e+04
+Adjusted net national income (annual % growth)                              -78.1701     22.323     -3.502      0.003    -125.268     -31.072
+Adjusted net national income (constant 2010 US$)                          -4.303e-05   5.38e-06     -7.995      0.000   -5.44e-05   -3.17e-05
+Adjusted net national income per capita (constant 2010 US$)                  16.1778      1.582     10.223      0.000      12.839      19.516
+Adjusted net savings, excluding particulate emission damage (current US$)    -0.0042      0.001     -5.389      0.000      -0.006      -0.003
+Adjusted net savings, including particulate emission damage (current US$)     0.0042      0.001      5.395      0.000       0.003       0.006
+Adjusted savings: education expenditure (% of GNI)                         1519.0856    367.479      4.134      0.001     743.772    2294.399
+GDP per capita growth (annual %)                                           -148.9311     30.784     -4.838      0.000    -213.879     -83.983
+GNI (current LCU)                                                          7.515e-06   1.15e-06      6.527      0.000    5.09e-06    9.94e-06
+Gross value added at basic prices (GVA) (constant LCU)                       1.9e-06   1.32e-06      1.438      0.169   -8.88e-07    4.69e-06
 ==============================================================================
-                 coef    std err          t      P>|t|      [0.025      0.975]
-------------------------------------------------------------------------------
-const       5.227e+06   6.96e+05      7.504      0.000    3.78e+06    6.67e+06
-date       -2708.0061    326.801     -8.286      0.000   -3385.750   -2030.262
-prcpMin    -2215.0559   2974.332     -0.745      0.464   -8383.443    3953.331
-prcpMax      834.8936   3257.549      0.256      0.800   -5920.849    7590.637
-tmpAvg      9345.1055   4021.952      2.324      0.030    1004.087    1.77e+04
-==============================================================================
-Omnibus:                       13.104   Durbin-Watson:                   1.455
-Prob(Omnibus):                  0.001   Jarque-Bera (JB):               13.928
-Skew:                           1.191   Prob(JB):                     0.000945
-Kurtosis:                       5.590   Cond. No.                     6.40e+05
+Omnibus:                        2.979   Durbin-Watson:                   2.100
+Prob(Omnibus):                  0.226   Jarque-Bera (JB):                1.696
+Skew:                          -0.098   Prob(JB):                        0.428
+Kurtosis:                       4.212   Cond. No.                     2.32e+11
 ==============================================================================
 
 Warnings:
 [1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
-[2] The condition number is large, 6.4e+05. This might indicate that there are
+[2] The condition number is large, 2.32e+11. This might indicate that there are
 strong multicollinearity or other numerical problems.
 
 const                                                                       -23098.338899

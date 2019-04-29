@@ -1,32 +1,37 @@
                             OLS Regression Results                            
 ==============================================================================
-Dep. Variable:                  Datum   R-squared:                       0.859
-Model:                            OLS   Adj. R-squared:                  0.833
-Method:                 Least Squares   F-statistic:                     33.47
-Date:                Sun, 28 Apr 2019   Prob (F-statistic):           4.62e-09
-Time:                        21:02:08   Log-Likelihood:                -287.60
-No. Observations:                  27   AIC:                             585.2
-Df Residuals:                      22   BIC:                             591.7
-Df Model:                           4                                         
+Dep. Variable:                  Datum   R-squared:                       0.976
+Model:                            OLS   Adj. R-squared:                  0.964
+Method:                 Least Squares   F-statistic:                     77.87
+Date:                Sun, 28 Apr 2019   Prob (F-statistic):           4.88e-12
+Time:                        21:54:29   Log-Likelihood:                -251.56
+No. Observations:                  27   AIC:                             523.1
+Df Residuals:                      17   BIC:                             536.1
+Df Model:                           9                                         
 Covariance Type:            nonrobust                                         
+=====================================================================================================================================
+                                                                        coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------------------------------------------
+const                                                             -1.901e+05   9.83e+04     -1.935      0.070   -3.97e+05    1.72e+04
+Agricultural land (sq. km)                                           -2.8425      0.577     -4.930      0.000      -4.059      -1.626
+Birth rate, crude (per 1,000 people)                               1.055e+04   2750.216      3.835      0.001    4745.255    1.64e+04
+Broad money (% of GDP)                                             2162.3663    350.813      6.164      0.000    1422.215    2902.517
+Currency composition of PPG debt, Multiple currencies (%)         -2062.5058    297.608     -6.930      0.000   -2690.403   -1434.608
+Currency composition of PPG debt, SDR (%)                         -7.483e+04   1.37e+04     -5.450      0.000   -1.04e+05   -4.59e+04
+Households and NPISHs Final consumption expenditure (current LCU)   2.63e-06   8.51e-07      3.090      0.007    8.34e-07    4.43e-06
+Households and NPISHs Final consumption expenditure (current US$) -1.923e-05   6.69e-06     -2.873      0.011   -3.34e-05   -5.11e-06
+Industry (including construction), value added (current LCU)        -1.1e-05   3.09e-06     -3.562      0.002   -1.75e-05   -4.49e-06
+Industry (including construction), value added (current US$)       7.772e-05   2.42e-05      3.212      0.005    2.67e-05       0.000
 ==============================================================================
-                 coef    std err          t      P>|t|      [0.025      0.975]
-------------------------------------------------------------------------------
-const       5.227e+06   6.96e+05      7.504      0.000    3.78e+06    6.67e+06
-date       -2708.0061    326.801     -8.286      0.000   -3385.750   -2030.262
-prcpMin    -2215.0559   2974.332     -0.745      0.464   -8383.443    3953.331
-prcpMax      834.8936   3257.549      0.256      0.800   -5920.849    7590.637
-tmpAvg      9345.1055   4021.952      2.324      0.030    1004.087    1.77e+04
-==============================================================================
-Omnibus:                       13.104   Durbin-Watson:                   1.455
-Prob(Omnibus):                  0.001   Jarque-Bera (JB):               13.928
-Skew:                           1.191   Prob(JB):                     0.000945
-Kurtosis:                       5.590   Cond. No.                     6.40e+05
+Omnibus:                        3.514   Durbin-Watson:                   2.130
+Prob(Omnibus):                  0.173   Jarque-Bera (JB):                1.442
+Skew:                           0.030   Prob(JB):                        0.486
+Kurtosis:                       1.869   Cond. No.                     3.60e+13
 ==============================================================================
 
 Warnings:
 [1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
-[2] The condition number is large, 6.4e+05. This might indicate that there are
+[2] The condition number is large, 3.6e+13. This might indicate that there are
 strong multicollinearity or other numerical problems.
 
 const                                                               -190129.452007
