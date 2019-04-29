@@ -1,0 +1,56 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                  Datum   R-squared:                       0.859
+Model:                            OLS   Adj. R-squared:                  0.833
+Method:                 Least Squares   F-statistic:                     33.47
+Date:                Sun, 28 Apr 2019   Prob (F-statistic):           4.62e-09
+Time:                        20:55:43   Log-Likelihood:                -287.60
+No. Observations:                  27   AIC:                             585.2
+Df Residuals:                      22   BIC:                             591.7
+Df Model:                           4                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       5.227e+06   6.96e+05      7.504      0.000    3.78e+06    6.67e+06
+date       -2708.0061    326.801     -8.286      0.000   -3385.750   -2030.262
+prcpMin    -2215.0559   2974.332     -0.745      0.464   -8383.443    3953.331
+prcpMax      834.8936   3257.549      0.256      0.800   -5920.849    7590.637
+tmpAvg      9345.1055   4021.952      2.324      0.030    1004.087    1.77e+04
+==============================================================================
+Omnibus:                       13.104   Durbin-Watson:                   1.455
+Prob(Omnibus):                  0.001   Jarque-Bera (JB):               13.928
+Skew:                           1.191   Prob(JB):                     0.000945
+Kurtosis:                       5.590   Cond. No.                     6.40e+05
+==============================================================================
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 6.4e+05. This might indicate that there are
+strong multicollinearity or other numerical problems.
+
+const                                                                       -23098.338899
+Adjusted net national income (annual % growth)                                 -78.170144
+Adjusted net national income (constant 2010 US$)                                -0.000043
+Adjusted net national income per capita (constant 2010 US$)                     16.177839
+Adjusted net savings, excluding particulate emission damage (current US$)       -0.004233
+Adjusted net savings, including particulate emission damage (current US$)        0.004232
+Adjusted savings: education expenditure (% of GNI)                            1519.085631
+GDP per capita growth (annual %)                                              -148.931070
+GNI (current LCU)                                                                0.000008
+Gross value added at basic prices (GVA) (constant LCU)                           0.000002
+dtype: float64
+
+const                                                                        8.636780e-04
+Adjusted net national income (annual % growth)                               2.733848e-03
+Adjusted net national income (constant 2010 US$)                             3.682251e-07
+Adjusted net national income per capita (constant 2010 US$)                  1.118877e-08
+Adjusted net savings, excluding particulate emission damage (current US$)    4.896317e-05
+Adjusted net savings, including particulate emission damage (current US$)    4.841568e-05
+Adjusted savings: education expenditure (% of GNI)                           6.940931e-04
+GDP per capita growth (annual %)                                             1.540159e-04
+GNI (current LCU)                                                            5.173822e-06
+Gross value added at basic prices (GVA) (constant LCU)                       1.686389e-01
+dtype: float64
+
+-23098.33889949502 -78.17014372889278x  -4.3030086907114134e-05x  +16.177838653447196x  -0.00423273126774916x  +0.00423218123692271x  +1519.0856314048747x  -148.93107038933002x  +7.5148292818504205e-06x  +1.9003453187367439e-06x 

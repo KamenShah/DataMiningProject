@@ -1,0 +1,56 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                  Datum   R-squared:                       0.859
+Model:                            OLS   Adj. R-squared:                  0.833
+Method:                 Least Squares   F-statistic:                     33.47
+Date:                Sun, 28 Apr 2019   Prob (F-statistic):           4.62e-09
+Time:                        20:58:25   Log-Likelihood:                -287.60
+No. Observations:                  27   AIC:                             585.2
+Df Residuals:                      22   BIC:                             591.7
+Df Model:                           4                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       5.227e+06   6.96e+05      7.504      0.000    3.78e+06    6.67e+06
+date       -2708.0061    326.801     -8.286      0.000   -3385.750   -2030.262
+prcpMin    -2215.0559   2974.332     -0.745      0.464   -8383.443    3953.331
+prcpMax      834.8936   3257.549      0.256      0.800   -5920.849    7590.637
+tmpAvg      9345.1055   4021.952      2.324      0.030    1004.087    1.77e+04
+==============================================================================
+Omnibus:                       13.104   Durbin-Watson:                   1.455
+Prob(Omnibus):                  0.001   Jarque-Bera (JB):               13.928
+Skew:                           1.191   Prob(JB):                     0.000945
+Kurtosis:                       5.590   Cond. No.                     6.40e+05
+==============================================================================
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 6.4e+05. This might indicate that there are
+strong multicollinearity or other numerical problems.
+
+const                                                                 2.170033e+03
+Adults (ages 15+) and children (ages 0-14) newly infected with HIV    3.648683e+02
+Adults (ages 15+) newly infected with HIV                            -3.463233e+02
+Communications, computer, etc. (% of service imports, BoP)            1.951711e+02
+Exports of goods and services (constant LCU)                          1.489558e-09
+Final consumption expenditure (constant LCU)                         -1.552341e-09
+Goods exports (BoP, current US$)                                     -1.726677e-06
+Goods imports (BoP, current US$)                                      3.837868e-07
+Gross capital formation (% of GDP)                                   -1.947900e+02
+Imports of goods and services (% of GDP)                              1.819132e+02
+dtype: float64
+
+const                                                                 0.580886
+Adults (ages 15+) and children (ages 0-14) newly infected with HIV    0.000002
+Adults (ages 15+) newly infected with HIV                             0.000004
+Communications, computer, etc. (% of service imports, BoP)            0.000337
+Exports of goods and services (constant LCU)                          0.039151
+Final consumption expenditure (constant LCU)                          0.001556
+Goods exports (BoP, current US$)                                      0.002804
+Goods imports (BoP, current US$)                                      0.097064
+Gross capital formation (% of GDP)                                    0.008695
+Imports of goods and services (% of GDP)                              0.003895
+dtype: float64
+
+2170.0331091378744 +364.86831537466264x  -346.3233351325498x  +195.17112180783636x  +1.48955810025557e-09x  -1.5523413468582949e-09x  -1.7266766461266584e-06x  +3.837868031500825e-07x  -194.79000587426134x  +181.91323449299122x 

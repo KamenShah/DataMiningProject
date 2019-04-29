@@ -1,0 +1,56 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                  Datum   R-squared:                       0.859
+Model:                            OLS   Adj. R-squared:                  0.833
+Method:                 Least Squares   F-statistic:                     33.47
+Date:                Sun, 28 Apr 2019   Prob (F-statistic):           4.62e-09
+Time:                        19:23:07   Log-Likelihood:                -287.60
+No. Observations:                  27   AIC:                             585.2
+Df Residuals:                      22   BIC:                             591.7
+Df Model:                           4                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       5.227e+06   6.96e+05      7.504      0.000    3.78e+06    6.67e+06
+date       -2708.0061    326.801     -8.286      0.000   -3385.750   -2030.262
+prcpMin    -2215.0559   2974.332     -0.745      0.464   -8383.443    3953.331
+prcpMax      834.8936   3257.549      0.256      0.800   -5920.849    7590.637
+tmpAvg      9345.1055   4021.952      2.324      0.030    1004.087    1.77e+04
+==============================================================================
+Omnibus:                       13.104   Durbin-Watson:                   1.455
+Prob(Omnibus):                  0.001   Jarque-Bera (JB):               13.928
+Skew:                           1.191   Prob(JB):                     0.000945
+Kurtosis:                       5.590   Cond. No.                     6.40e+05
+==============================================================================
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 6.4e+05. This might indicate that there are
+strong multicollinearity or other numerical problems.
+
+const                                                                               -47845.516870
+Adults (ages 15+) and children (ages 0-14) newly infected with HIV                      11.577952
+Armed forces personnel (% of total labor force)                                      53350.438917
+Average grant element on new external debt commitments (%)                           -3374.018040
+Average grant element on new external debt commitments, official (%)                  3459.547810
+Average maturity on new external debt commitments (years)                            10543.353983
+Average maturity on new external debt commitments, official (years)                  -9932.694589
+Net bilateral aid flows from DAC donors, Total (current US$)                            -0.000075
+Net official development assistance and official aid received (constant 2015 US$)       -0.003097
+Net official development assistance received (constant 2015 US$)                         0.003131
+dtype: float64
+
+const                                                                                0.000393
+Adults (ages 15+) and children (ages 0-14) newly infected with HIV                   0.000003
+Armed forces personnel (% of total labor force)                                      0.000237
+Average grant element on new external debt commitments (%)                           0.002893
+Average grant element on new external debt commitments, official (%)                 0.003458
+Average maturity on new external debt commitments (years)                            0.000665
+Average maturity on new external debt commitments, official (years)                  0.001302
+Net bilateral aid flows from DAC donors, Total (current US$)                         0.002308
+Net official development assistance and official aid received (constant 2015 US$)    0.000317
+Net official development assistance received (constant 2015 US$)                     0.000297
+dtype: float64
+
+-47845.516870048996 +11.577951899551977x  +53350.43891715421x  -3374.0180397558265x  +3459.5478096154106x  +10543.353982780658x  -9932.694589207098x  -7.525313138528105e-05x  -0.0030974268206801097x  +0.003130751429235337x 

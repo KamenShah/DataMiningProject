@@ -1,0 +1,56 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                  Datum   R-squared:                       0.859
+Model:                            OLS   Adj. R-squared:                  0.833
+Method:                 Least Squares   F-statistic:                     33.47
+Date:                Sun, 28 Apr 2019   Prob (F-statistic):           4.62e-09
+Time:                        21:03:15   Log-Likelihood:                -287.60
+No. Observations:                  27   AIC:                             585.2
+Df Residuals:                      22   BIC:                             591.7
+Df Model:                           4                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       5.227e+06   6.96e+05      7.504      0.000    3.78e+06    6.67e+06
+date       -2708.0061    326.801     -8.286      0.000   -3385.750   -2030.262
+prcpMin    -2215.0559   2974.332     -0.745      0.464   -8383.443    3953.331
+prcpMax      834.8936   3257.549      0.256      0.800   -5920.849    7590.637
+tmpAvg      9345.1055   4021.952      2.324      0.030    1004.087    1.77e+04
+==============================================================================
+Omnibus:                       13.104   Durbin-Watson:                   1.455
+Prob(Omnibus):                  0.001   Jarque-Bera (JB):               13.928
+Skew:                           1.191   Prob(JB):                     0.000945
+Kurtosis:                       5.590   Cond. No.                     6.40e+05
+==============================================================================
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 6.4e+05. This might indicate that there are
+strong multicollinearity or other numerical problems.
+
+const                                                    6748.951969
+Adjusted net national income (current US$)                  0.000006
+Adjusted net national income per capita (current US$)     -10.674519
+Adjusted savings: carbon dioxide damage (current US$)      -0.000050
+Adjusted savings: net national savings (current US$)       -0.000001
+GDP (constant 2010 US$)                                     0.078769
+GDP (constant LCU)                                         -0.092514
+GDP (current US$)                                          -0.000003
+GNI (constant 2010 US$)                                    -0.611286
+GNI (constant LCU)                                          0.719805
+dtype: float64
+
+const                                                    0.077488
+Adjusted net national income (current US$)               0.001052
+Adjusted net national income per capita (current US$)    0.002281
+Adjusted savings: carbon dioxide damage (current US$)    0.013542
+Adjusted savings: net national savings (current US$)     0.012447
+GDP (constant 2010 US$)                                  0.077486
+GDP (constant LCU)                                       0.077488
+GDP (current US$)                                        0.005717
+GNI (constant 2010 US$)                                  0.077488
+GNI (constant LCU)                                       0.077488
+dtype: float64
+
+6748.951969475498 +6.011323271865795e-06x  -10.674519111680626x  -4.983444607069784e-05x  -1.3772427849678026e-06x  +0.07876880184219984x  -0.09251371270342379x  -2.737630389487419e-06x  -0.6112859080722893x  +0.7198054171196778x 
