@@ -1,0 +1,61 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                  Datum   R-squared:                       0.987
+Model:                            OLS   Adj. R-squared:                  0.981
+Method:                 Least Squares   F-statistic:                     147.0
+Date:                Wed, 01 May 2019   Prob (F-statistic):           2.50e-14
+Time:                        16:18:32   Log-Likelihood:                -195.47
+No. Observations:                  27   AIC:                             410.9
+Df Residuals:                      17   BIC:                             423.9
+Df Model:                           9                                         
+Covariance Type:            nonrobust                                         
+===================================================================================================================================================================
+                                                                                                      coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+const                                                                                            8.414e+05   1.66e+05      5.059      0.000     4.9e+05    1.19e+06
+Age dependency ratio (% of working-age population)                                               1125.8767    172.272      6.535      0.000     762.414    1489.340
+Interest payments on external debt, long-term (INT, current US$)                                 2.392e-05   9.15e-06      2.613      0.018    4.61e-06    4.32e-05
+Labor force participation rate for ages 15-24, female (%) (modeled ILO estimate)                  908.7058    543.060      1.673      0.113    -237.051    2054.462
+Labor force participation rate, female (% of female population ages 15+) (modeled ILO estimate)  6.056e+04   5773.740     10.489      0.000    4.84e+04    7.27e+04
+Labor force participation rate, male (% of male population ages 15+) (modeled ILO estimate)      5.916e+04   6125.292      9.659      0.000    4.62e+04    7.21e+04
+Labor force participation rate, total (% of total population ages 15+) (modeled ILO estimate)   -1.219e+05   1.25e+04     -9.744      0.000   -1.48e+05   -9.55e+04
+Lending interest rate (%)                                                                       -1771.5763    322.828     -5.488      0.000   -2452.684   -1090.469
+Life expectancy at birth, female (years)                                                        -9845.8112   1829.722     -5.381      0.000   -1.37e+04   -5985.434
+Mortality rate, adult, male (per 1,000 male adults)                                              -249.9058     61.226     -4.082      0.001    -379.081    -120.731
+==============================================================================
+Omnibus:                        0.682   Durbin-Watson:                   2.017
+Prob(Omnibus):                  0.711   Jarque-Bera (JB):                0.719
+Skew:                          -0.324   Prob(JB):                        0.698
+Kurtosis:                       2.531   Cond. No.                     8.98e+10
+==============================================================================
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 8.98e+10. This might indicate that there are
+strong multicollinearity or other numerical problems.
+
+const                                                                                              841441.604030
+Age dependency ratio (% of working-age population)                                                   1125.876659
+Interest payments on external debt, long-term (INT, current US$)                                        0.000024
+Labor force participation rate for ages 15-24, female (%) (modeled ILO estimate)                      908.705800
+Labor force participation rate, female (% of female population ages 15+) (modeled ILO estimate)     60563.409175
+Labor force participation rate, male (% of male population ages 15+) (modeled ILO estimate)         59161.594398
+Labor force participation rate, total (% of total population ages 15+) (modeled ILO estimate)     -121890.913722
+Lending interest rate (%)                                                                           -1771.576338
+Life expectancy at birth, female (years)                                                            -9845.811160
+Mortality rate, adult, male (per 1,000 male adults)                                                  -249.905812
+dtype: float64
+
+const                                                                                              9.695552e-05
+Age dependency ratio (% of working-age population)                                                 5.089472e-06
+Interest payments on external debt, long-term (INT, current US$)                                   1.816853e-02
+Labor force participation rate for ages 15-24, female (%) (modeled ILO estimate)                   1.125667e-01
+Labor force participation rate, female (% of female population ages 15+) (modeled ILO estimate)    7.650836e-09
+Labor force participation rate, male (% of male population ages 15+) (modeled ILO estimate)        2.569963e-08
+Labor force participation rate, total (% of total population ages 15+) (modeled ILO estimate)      2.262552e-08
+Lending interest rate (%)                                                                          4.002861e-05
+Life expectancy at birth, female (years)                                                           4.977088e-05
+Mortality rate, adult, male (per 1,000 male adults)                                                7.768493e-04
+dtype: float64
+
+841441.60403 +1125.87665915x  +2.39183089796e-05x  +908.705800358x  +60563.409175x  +59161.5943977x  -121890.913722x  -1771.57633776x  -9845.81116003x  -249.905812113x 

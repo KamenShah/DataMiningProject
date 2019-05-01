@@ -1,0 +1,61 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                  Datum   R-squared:                       0.961
+Model:                            OLS   Adj. R-squared:                  0.940
+Method:                 Least Squares   F-statistic:                     46.46
+Date:                Wed, 01 May 2019   Prob (F-statistic):           3.27e-10
+Time:                        16:20:56   Log-Likelihood:                -186.08
+No. Observations:                  27   AIC:                             392.2
+Df Residuals:                      17   BIC:                             405.1
+Df Model:                           9                                         
+Covariance Type:            nonrobust                                         
+=============================================================================================================================================================================================
+                                                                                                                                coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+const                                                                                                                      1.387e+05   6.21e+04      2.232      0.039    7611.768     2.7e+05
+Adjusted net savings, excluding particulate emission damage (% of GNI)                                                      -89.3709     20.615     -4.335      0.000    -132.865     -45.877
+Adjusted savings: carbon dioxide damage (% of GNI)                                                                        -2331.0361   1000.452     -2.330      0.032   -4441.806    -220.266
+Children (0-14) living with HIV                                                                                               5.4976      1.004      5.478      0.000       3.380       7.615
+Interest rate spread (lending rate minus deposit rate, %)                                                                   538.3989    106.371      5.062      0.000     313.976     762.822
+Life expectancy at birth, female (years)                                                                                  -1309.8623    666.162     -1.966      0.066   -2715.342      95.617
+Merchandise exports to low- and middle-income economies in Latin America & the Caribbean (% of total merchandise exports)  -147.2366     53.446     -2.755      0.014    -259.999     -34.474
+Merchandise exports to low- and middle-income economies outside region (% of total merchandise exports)                      76.2030     40.113      1.900      0.075      -8.429     160.835
+Merchandise imports from low- and middle-income economies in East Asia & Pacific (% of total merchandise imports)          -354.6845     85.994     -4.125      0.001    -536.115    -173.254
+Population ages 0-14, male (% of total)                                                                                   -1041.8154    337.116     -3.090      0.007   -1753.068    -330.563
+==============================================================================
+Omnibus:                        1.319   Durbin-Watson:                   2.387
+Prob(Omnibus):                  0.517   Jarque-Bera (JB):                0.978
+Skew:                          -0.169   Prob(JB):                        0.613
+Kurtosis:                       2.131   Cond. No.                     4.17e+05
+==============================================================================
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 4.17e+05. This might indicate that there are
+strong multicollinearity or other numerical problems.
+
+const                                                                                                                        138667.985452
+Adjusted net savings, excluding particulate emission damage (% of GNI)                                                          -89.370869
+Adjusted savings: carbon dioxide damage (% of GNI)                                                                            -2331.036056
+Children (0-14) living with HIV                                                                                                   5.497553
+Interest rate spread (lending rate minus deposit rate, %)                                                                       538.398879
+Life expectancy at birth, female (years)                                                                                      -1309.862262
+Merchandise exports to low- and middle-income economies in Latin America & the Caribbean (% of total merchandise exports)      -147.236573
+Merchandise exports to low- and middle-income economies outside region (% of total merchandise exports)                          76.202976
+Merchandise imports from low- and middle-income economies in East Asia & Pacific (% of total merchandise imports)              -354.684519
+Population ages 0-14, male (% of total)                                                                                       -1041.815361
+dtype: float64
+
+const                                                                                                                        0.039333
+Adjusted net savings, excluding particulate emission damage (% of GNI)                                                       0.000450
+Adjusted savings: carbon dioxide damage (% of GNI)                                                                           0.032385
+Children (0-14) living with HIV                                                                                              0.000041
+Interest rate spread (lending rate minus deposit rate, %)                                                                    0.000096
+Life expectancy at birth, female (years)                                                                                     0.065813
+Merchandise exports to low- and middle-income economies in Latin America & the Caribbean (% of total merchandise exports)    0.013530
+Merchandise exports to low- and middle-income economies outside region (% of total merchandise exports)                      0.074575
+Merchandise imports from low- and middle-income economies in East Asia & Pacific (% of total merchandise imports)            0.000708
+Population ages 0-14, male (% of total)                                                                                      0.006640
+dtype: float64
+
+138667.985452 -89.3708689605x  -2331.03605567x  +5.49755276474x  +538.398879371x  -1309.8622624x  -147.236573398x  +76.2029763145x  -354.684518974x  -1041.81536134x 
