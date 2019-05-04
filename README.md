@@ -22,3 +22,9 @@ The applications of the information mined here are both significant and far reac
 ## Video Link
 
 ## Final Project Paper
+
+Link to All Reports <br />
+https://github.com/data-mining-group/Data-Mining-Reports <br />
+
+Link to Final Report<br />
+https://github.com/data-mining-group/Data-Mining-Reports/blob/master/Group5_MiningClimateData_Part4.pdf
