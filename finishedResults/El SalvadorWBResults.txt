@@ -1,0 +1,61 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                  Datum   R-squared:                       0.987
+Model:                            OLS   Adj. R-squared:                  0.981
+Method:                 Least Squares   F-statistic:                     167.7
+Date:                Wed, 01 May 2019   Prob (F-statistic):           2.65e-15
+Time:                        16:19:14   Log-Likelihood:                -190.02
+No. Observations:                  27   AIC:                             398.0
+Df Residuals:                      18   BIC:                             409.7
+Df Model:                           8                                         
+Covariance Type:            nonrobust                                         
+===========================================================================================================================================================
+                                                                                              coef    std err          t      P>|t|      [0.025      0.975]
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+const                                                                                     1.75e+05   1.56e+04     11.227      0.000    1.42e+05    2.08e+05
+Adjusted net national income per capita (constant 2010 US$)                                 2.3022      1.457      1.580      0.132      -0.759       5.363
+External debt stocks, long-term (DOD, current US$)                                       3.781e-07   1.21e-07      3.128      0.006    1.24e-07    6.32e-07
+GNI (constant 2010 US$)                                                                  -256.6206     22.857    -11.227      0.000    -304.642    -208.599
+GNI, PPP (constant 2011 international $)                                                  121.9406     10.861     11.227      0.000      99.122     144.759
+Gross capital formation (% of GDP)                                                       -534.0388     52.026    -10.265      0.000    -643.342    -424.736
+Interest payments on external debt, private nonguaranteed (PNG) (INT, current US$)       7.168e-06   4.08e-06      1.756      0.096   -1.41e-06    1.57e-05
+Life expectancy at birth, total (years)                                                 -2860.9912    285.153    -10.033      0.000   -3460.076   -2261.907
+Merchandise exports by the reporting economy, residual (% of total merchandise exports)   528.8496     60.067      8.804      0.000     402.653     655.046
+Merchandise trade (% of GDP)                                                               92.0846     21.524      4.278      0.000      46.865     137.304
+==============================================================================
+Omnibus:                        3.794   Durbin-Watson:                   2.184
+Prob(Omnibus):                  0.150   Jarque-Bera (JB):                1.552
+Skew:                          -0.135   Prob(JB):                        0.460
+Kurtosis:                       1.857   Cond. No.                     1.66e+15
+==============================================================================
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 1.66e+15. This might indicate that there are
+strong multicollinearity or other numerical problems.
+
+const                                                                                      1.749774e+05
+Adjusted net national income per capita (constant 2010 US$)                                2.302210e+00
+External debt stocks, long-term (DOD, current US$)                                         3.780669e-07
+GNI (constant 2010 US$)                                                                   -2.566206e+02
+GNI, PPP (constant 2011 international $)                                                   1.219406e+02
+Gross capital formation (% of GDP)                                                        -5.340388e+02
+Interest payments on external debt, private nonguaranteed (PNG) (INT, current US$)         7.168402e-06
+Life expectancy at birth, total (years)                                                   -2.860991e+03
+Merchandise exports by the reporting economy, residual (% of total merchandise exports)    5.288496e+02
+Merchandise trade (% of GDP)                                                               9.208463e+01
+dtype: float64
+
+const                                                                                      1.461900e-09
+Adjusted net national income per capita (constant 2010 US$)                                1.315197e-01
+External debt stocks, long-term (DOD, current US$)                                         5.817789e-03
+GNI (constant 2010 US$)                                                                    1.462472e-09
+GNI, PPP (constant 2011 international $)                                                   1.462472e-09
+Gross capital formation (% of GDP)                                                         5.964510e-09
+Interest payments on external debt, private nonguaranteed (PNG) (INT, current US$)         9.611558e-02
+Life expectancy at birth, total (years)                                                    8.486945e-09
+Merchandise exports by the reporting economy, residual (% of total merchandise exports)    6.102079e-08
+Merchandise trade (% of GDP)                                                               4.523247e-04
+dtype: float64
+
+174977.392993 +2.3022101905x  +3.78066858773e-07x  -256.62055017x  +121.940603844x  -534.038807646x  +7.16840200719e-06x  -2860.99120466x  +528.849568197x  +92.0846288945x 

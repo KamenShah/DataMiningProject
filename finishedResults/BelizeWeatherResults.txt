@@ -1,0 +1,43 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                  Datum   R-squared:                       0.382
+Model:                            OLS   Adj. R-squared:                  0.301
+Method:                 Least Squares   F-statistic:                     4.735
+Date:                Wed, 01 May 2019   Prob (F-statistic):             0.0103
+Time:                        16:18:32   Log-Likelihood:                -247.94
+No. Observations:                  27   AIC:                             503.9
+Df Residuals:                      23   BIC:                             509.1
+Df Model:                           3                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       1.029e+05   3.16e+04      3.250      0.004    3.74e+04    1.68e+05
+prcpMin     -639.7760    395.343     -1.618      0.119   -1457.606     178.054
+prcpMax      596.8559    613.460      0.973      0.341    -672.182    1865.894
+tmpAvg     -3912.7235   1278.760     -3.060      0.006   -6558.039   -1267.408
+==============================================================================
+Omnibus:                        8.388   Durbin-Watson:                   0.799
+Prob(Omnibus):                  0.015   Jarque-Bera (JB):                6.537
+Skew:                           1.111   Prob(JB):                       0.0381
+Kurtosis:                       3.933   Cond. No.                     2.96e+03
+==============================================================================
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 2.96e+03. This might indicate that there are
+strong multicollinearity or other numerical problems.
+
+const      102874.212316
+prcpMin      -639.775980
+prcpMax       596.855872
+tmpAvg      -3912.723506
+dtype: float64
+
+const      0.003527
+prcpMin    0.119236
+prcpMax    0.340708
+tmpAvg     0.005551
+dtype: float64
+
+102874.212316 -639.77597968x  +596.855872134x  -3912.72350639x 

@@ -1,0 +1,61 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                  Datum   R-squared:                       0.964
+Model:                            OLS   Adj. R-squared:                  0.945
+Method:                 Least Squares   F-statistic:                     50.84
+Date:                Wed, 01 May 2019   Prob (F-statistic):           1.58e-10
+Time:                        16:20:33   Log-Likelihood:                -263.20
+No. Observations:                  27   AIC:                             546.4
+Df Residuals:                      17   BIC:                             559.4
+Df Model:                           9                                         
+Covariance Type:            nonrobust                                         
+========================================================================================================================================
+                                                                           coef    std err          t      P>|t|      [0.025      0.975]
+----------------------------------------------------------------------------------------------------------------------------------------
+const                                                                 1.783e+05   5.56e+04      3.209      0.005    6.11e+04    2.96e+05
+Armed forces personnel (% of total labor force)                       2.492e+05   2.85e+04      8.739      0.000    1.89e+05    3.09e+05
+Armed forces personnel, total                                          -13.3701      2.368     -5.647      0.000     -18.366      -8.375
+Average grant element on new external debt commitments, official (%) -1246.3905    415.948     -2.997      0.008   -2123.964    -368.817
+Average interest on new external debt commitments (%)                 6.401e+04      2e+04      3.200      0.005    2.18e+04    1.06e+05
+Average interest on new external debt commitments, official (%)       -7.72e+04   1.94e+04     -3.972      0.001   -1.18e+05   -3.62e+04
+Claims on private sector (annual growth as % of broad money)           -23.6300      3.574     -6.611      0.000     -31.172     -16.089
+GDP per capita (constant 2010 US$)                                    -126.7338     22.645     -5.597      0.000    -174.510     -78.957
+GNI per capita, Atlas method (current US$)                             106.5771     14.114      7.551      0.000      76.798     136.356
+Grants and other revenue (% of revenue)                                565.9497    291.546      1.941      0.069     -49.159    1181.058
+==============================================================================
+Omnibus:                        1.545   Durbin-Watson:                   2.096
+Prob(Omnibus):                  0.462   Jarque-Bera (JB):                0.665
+Skew:                          -0.359   Prob(JB):                        0.717
+Kurtosis:                       3.275   Cond. No.                     8.59e+05
+==============================================================================
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 8.59e+05. This might indicate that there are
+strong multicollinearity or other numerical problems.
+
+const                                                                   178337.993736
+Armed forces personnel (% of total labor force)                         249189.210628
+Armed forces personnel, total                                              -13.370112
+Average grant element on new external debt commitments, official (%)     -1246.390450
+Average interest on new external debt commitments (%)                    64011.043753
+Average interest on new external debt commitments, official (%)         -77196.882332
+Claims on private sector (annual growth as % of broad money)               -23.630014
+GDP per capita (constant 2010 US$)                                        -126.733765
+GNI per capita, Atlas method (current US$)                                 106.577116
+Grants and other revenue (% of revenue)                                    565.949708
+dtype: float64
+
+const                                                                   5.146111e-03
+Armed forces personnel (% of total labor force)                         1.073430e-07
+Armed forces personnel, total                                           2.899199e-05
+Average grant element on new external debt commitments, official (%)    8.114905e-03
+Average interest on new external debt commitments (%)                   5.246697e-03
+Average interest on new external debt commitments, official (%)         9.850855e-04
+Claims on private sector (annual growth as % of broad money)            4.413303e-06
+GDP per capita (constant 2010 US$)                                      3.209082e-05
+GNI per capita, Atlas method (current US$)                              7.941916e-07
+Grants and other revenue (% of revenue)                                 6.899829e-02
+dtype: float64
+
+178337.993736 +249189.210628x  -13.3701119681x  -1246.39045024x  +64011.0437529x  -77196.882332x  -23.6300138186x  -126.73376492x  +106.577115746x  +565.949708089x 

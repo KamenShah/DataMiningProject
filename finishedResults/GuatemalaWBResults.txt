@@ -1,0 +1,61 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                  Datum   R-squared:                       0.963
+Model:                            OLS   Adj. R-squared:                  0.946
+Method:                 Least Squares   F-statistic:                     58.09
+Date:                Wed, 01 May 2019   Prob (F-statistic):           2.77e-11
+Time:                        16:19:41   Log-Likelihood:                -257.69
+No. Observations:                  27   AIC:                             533.4
+Df Residuals:                      18   BIC:                             545.0
+Df Model:                           8                                         
+Covariance Type:            nonrobust                                         
+======================================================================================================================================
+                                                                         coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------------------------------------------
+const                                                              -5.483e+05   1.33e+05     -4.129      0.001   -8.27e+05   -2.69e+05
+Adjusted savings: gross savings (% of GNI)                          2773.7546    595.617      4.657      0.000    1522.409    4025.100
+Commercial banks and other lending (PPG + PNG) (NFL, current US$)   1.391e-05   3.23e-06      4.309      0.000    7.13e-06    2.07e-05
+Commercial service imports (current US$)                           -2.257e-05   7.23e-06     -3.120      0.006   -3.78e-05   -7.37e-06
+Currency composition of PPG debt, SDR (%)                          -6.036e+04   1.02e+04     -5.918      0.000   -8.18e+04   -3.89e+04
+Disbursements on external debt, long-term + IMF (DIS, current US$) -8.125e-06    2.7e-06     -3.008      0.008   -1.38e-05   -2.45e-06
+GDP (constant 2010 US$)                                             2094.5975    506.129      4.138      0.001    1031.260    3157.935
+GDP, PPP (constant 2011 international $)                            -881.4838    212.998     -4.138      0.001   -1328.975    -433.992
+Grants and other revenue (% of revenue)                             2679.0879    358.206      7.479      0.000    1926.525    3431.651
+Life expectancy at birth, total (years)                             8939.2152   2425.596      3.685      0.002    3843.226     1.4e+04
+==============================================================================
+Omnibus:                        0.050   Durbin-Watson:                   2.082
+Prob(Omnibus):                  0.975   Jarque-Bera (JB):                0.089
+Skew:                          -0.058   Prob(JB):                        0.957
+Kurtosis:                       2.744   Cond. No.                     2.23e+15
+==============================================================================
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 2.23e+15. This might indicate that there are
+strong multicollinearity or other numerical problems.
+
+const                                                                -548295.599075
+Adjusted savings: gross savings (% of GNI)                              2773.754561
+Commercial banks and other lending (PPG + PNG) (NFL, current US$)          0.000014
+Commercial service imports (current US$)                                  -0.000023
+Currency composition of PPG debt, SDR (%)                             -60361.080842
+Disbursements on external debt, long-term + IMF (DIS, current US$)        -0.000008
+GDP (constant 2010 US$)                                                 2094.597487
+GDP, PPP (constant 2011 international $)                                -881.483761
+Grants and other revenue (% of revenue)                                 2679.087893
+Life expectancy at birth, total (years)                                 8939.215206
+dtype: float64
+
+const                                                                 6.305486e-04
+Adjusted savings: gross savings (% of GNI)                            1.961202e-04
+Commercial banks and other lending (PPG + PNG) (NFL, current US$)     4.228202e-04
+Commercial service imports (current US$)                              5.915449e-03
+Currency composition of PPG debt, SDR (%)                             1.333735e-05
+Disbursements on external debt, long-term + IMF (DIS, current US$)    7.555288e-03
+GDP (constant 2010 US$)                                               6.170963e-04
+GDP, PPP (constant 2011 international $)                              6.170963e-04
+Grants and other revenue (% of revenue)                               6.305782e-07
+Life expectancy at birth, total (years)                               1.692935e-03
+dtype: float64
+
+-548295.599075 +2773.75456063x  +1.39101716534e-05x  -2.25686241217e-05x  -60361.0808423x  -8.12534692625e-06x  +2094.59748691x  -881.483760549x  +2679.08789265x  +8939.21520642x 

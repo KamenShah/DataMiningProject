@@ -1,0 +1,61 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                  Datum   R-squared:                       0.956
+Model:                            OLS   Adj. R-squared:                  0.933
+Method:                 Least Squares   F-statistic:                     41.12
+Date:                Wed, 01 May 2019   Prob (F-statistic):           8.70e-10
+Time:                        16:18:54   Log-Likelihood:                -202.66
+No. Observations:                  27   AIC:                             425.3
+Df Residuals:                      17   BIC:                             438.3
+Df Model:                           9                                         
+Covariance Type:            nonrobust                                         
+================================================================================================================================
+                                                                   coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------------------------------------
+const                                                         5447.2948   1902.769      2.863      0.011    1432.803    9461.786
+Air transport, registered carrier departures worldwide           0.1642      0.039      4.262      0.001       0.083       0.246
+Average maturity on new external debt commitments (years)      129.3726     33.502      3.862      0.001      58.689     200.056
+Cereal yield (kg per hectare)                                   -1.5538      0.502     -3.097      0.007      -2.612      -0.495
+Claims on private sector (annual growth as % of broad money)    38.3295     13.085      2.929      0.009      10.722      65.937
+Concessional debt (% of total external debt)                   385.0925     61.567      6.255      0.000     255.197     514.988
+Discrepancy in expenditure estimate of GDP (constant LCU)     3.322e-09   1.33e-09      2.506      0.023    5.26e-10    6.12e-09
+Domestic credit to private sector by banks (% of GDP)          -37.2984     33.152     -1.125      0.276    -107.243      32.647
+General government final consumption expenditure (% of GDP)   -529.8166    105.250     -5.034      0.000    -751.874    -307.759
+Grants, excluding technical cooperation (BoP, current US$)    -5.44e-06   9.03e-06     -0.603      0.555   -2.45e-05    1.36e-05
+==============================================================================
+Omnibus:                        1.658   Durbin-Watson:                   1.894
+Prob(Omnibus):                  0.436   Jarque-Bera (JB):                1.466
+Skew:                           0.451   Prob(JB):                        0.480
+Kurtosis:                       2.299   Cond. No.                     7.61e+12
+==============================================================================
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 7.61e+12. This might indicate that there are
+strong multicollinearity or other numerical problems.
+
+const                                                           5.447295e+03
+Air transport, registered carrier departures worldwide          1.642230e-01
+Average maturity on new external debt commitments (years)       1.293726e+02
+Cereal yield (kg per hectare)                                  -1.553847e+00
+Claims on private sector (annual growth as % of broad money)    3.832946e+01
+Concessional debt (% of total external debt)                    3.850925e+02
+Discrepancy in expenditure estimate of GDP (constant LCU)       3.322078e-09
+Domestic credit to private sector by banks (% of GDP)          -3.729838e+01
+General government final consumption expenditure (% of GDP)    -5.298166e+02
+Grants, excluding technical cooperation (BoP, current US$)     -5.439735e-06
+dtype: float64
+
+const                                                           0.010778
+Air transport, registered carrier departures worldwide          0.000526
+Average maturity on new external debt commitments (years)       0.001252
+Cereal yield (kg per hectare)                                   0.006540
+Claims on private sector (annual growth as % of broad money)    0.009364
+Concessional debt (% of total external debt)                    0.000009
+Discrepancy in expenditure estimate of GDP (constant LCU)       0.022655
+Domestic credit to private sector by banks (% of GDP)           0.276196
+General government final consumption expenditure (% of GDP)     0.000102
+Grants, excluding technical cooperation (BoP, current US$)      0.554690
+dtype: float64
+
+5447.2947867 +0.164223048153x  +129.372623161x  -1.55384717118x  +38.3294601907x  +385.092471209x  +3.32207754283e-09x  -37.2983788246x  -529.816555818x  -5.43973475475e-06x 
